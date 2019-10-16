@@ -1,7 +1,8 @@
 
+import React from 'react';
 require('./like.css');
 let jsonp = require('../util/jsonp.js');
-import React from 'react'; 
+ 
 
 let Like = React.createClass({
 	getInitialState: function() {
